@@ -10,7 +10,7 @@ class Main:
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		;       S P A M  S M S      ;
 		;---------------------------;
-		;       Author : noobie     ;
+		;       Author : MR.404     ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 NOTE: This tool's only work for Indonesia number phone.
@@ -21,7 +21,7 @@ NOTE: This tool's only work for Indonesia number phone.
 4. OTP Olx.co.id
 5. OTP Sociolla.com
 """)
-		pilih=int(input('noobie/> '))
+		pilih=int(input('MR.404/> '))
 		if pilih == 1:
 			import src.payu
 		elif pilih == 2:
