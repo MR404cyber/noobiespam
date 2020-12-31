@@ -13,25 +13,13 @@ class Main:
 		;       Author : MR.404     ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-NOTE: This tool's only work for Indonesia number phone.
+NOTE: This tool's only work for Indonesia number 
 
-1. SMS Gratis
-2. OTP Matahari
-3. OTP Hallodok
-4. OTP Olx.co.id
-5. OTP Sociolla.com
+1. OTP Hallodok
 """)
 		pilih=int(input('MR.404/> '))
 		if pilih == 1:
-			import src.payu
-		elif pilih == 2:
-			import src.matahari
-		elif pilih == 3:
 			import src.alodok
-		elif pilih == 4:
-			import src.olx
-		elif pilih == 5:
-			import src.socil
 		else: print("[!] lihat menu dong(o)");self.menu()
 
 	def detekos(self):
